@@ -5,15 +5,15 @@ import Dashboard from '../components/Dashboard';
 export default function HomePage() {
   return (
     <div className="h-screen overflow-hidden flex flex-col">
-      {/* Navbar - stays at top */}
+      {/* Navbar */}
       <Navbar />
 
-      {/* Main layout: sidebar + dashboard content */}
+      {/* Main layout */}
       <div className="flex flex-1 overflow-hidden">
-        {/* Sidebar - fixed height with scroll if needed */}
+        {/* Sidebar*/}
         <Sidebar />
 
-        {/* Main content area with scrollable dashboard */}
+        {/* Main content*/}
         <div className="flex-1 overflow-y-auto">
           <Dashboard />
         </div>
