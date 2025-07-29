@@ -12,7 +12,7 @@ const Navbar = () => {
               <img src="/public/vite.svg" alt="" />
             </div>
             <span className="text-xl font-semibold text-gray-900">
-              Used vite logo insted,
+              LOGO
             </span>
           </div>
         </div>
